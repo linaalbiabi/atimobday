@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> envelope </title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="envelope-wrapper">
+                <div class="envelope">
+                    <div class="letter">
+                        <div class="text">
+                            <strong> to atimooo </strong>
+                            <p>
+                                HAPPY BIRTHDAY MY ATIMOONI ♡
+                               i love you so much, and thank you for being the best cousin and sister in one, when im around you i feel at peace and so comforted, you have this optimism in you that literally heals, and you’re so refreshing to be around. i’m so proud of you for doing your best and coming a long way. even though we don’t talk or hang out too often, you still understand me like no other. i appreciate every single given moment spent with you. i’m so grateful for you and our friendship. i’m grateful to say that i you in my life, and to know that i will always have you here, i hope you know that i’m always here for you forever. thank you again for being such a great friend, cousin, and sister. i hope you keep trying your hardest and pushing through all your struggles, and just know that if you ever need someone to help or talk to you, im always here. i love you sooo much atimooo
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="heart"></div>
+            </div>
+        </div>
+        <script>
+            const envelope=document.querySelector(".envelope-wrapper");
+            envelope.addEventListener('click',()=>{
+                envelope.classList.toggle('flap');
+            })
+        </script>
+    </body>
+</html> 
