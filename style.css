@@ -2,6 +2,7 @@
     --primary: #fff;
     --background-color: #F09A9A;
     --text-color:#e77373;
+    --heart-color:rgb(239, 146, 231);
 }
 body{
     margin: 0;
@@ -17,7 +18,6 @@ body{
     display: grid;
     place-items: center;
 }
-
 .envelope> .letter> .text{
     font-family: monospace;
     color: var(--text-color);
